@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .content{
+            height: 100px;
+            width: 100px;
+            border: 4px solid black;
+            opacity: 0.5;
+            display: inline-block;
+     }
+     
+
+     #navbar{
+    background-color: rgb(112, 152, 55);
+    height: 70px;
+    width: auto;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    }
+
+    button{
+    background-color: coral;
+    }
+
+     #logo{
+    color: coral;
+    font-size: 25px;
+    }
+
+    a{
+    margin-right: 200px;
+    text-decoration: none;
+    }
+    footer{
+        background-color: black;
+        height: 300px;
+        width: auto;
+        text-align: center;
+    }
+    *{
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div>
+            <a id="logo">Amazon.in</a>
+            <a>Account</a>
+            <a>Mycart</a>
+            <a>contact us</a>
+            <input placeholder="search here"></input>
+            <button>search</button>
+        </div>
+        </div>
+    </header>
+    <br><br>
+    <div id="content">
+        <div class="content" style="background-color: darkcyan;">soaps</div>
+        <div class="content" style="background-color: darkgrey;">gadgets</div>
+        <div class="content" style="background-color: lightpink;">electronics</div>
+    </div>
+    <br><br>
+   <footer>
+    Made with &#x2661 by amazon<br>
+    copyright amazon.in 
+   </footer>
+</body>
+</html>

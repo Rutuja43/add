@@ -1,0 +1,85 @@
+/*h1{
+    color: #87872a;
+}*/
+
+#box {
+    background-color:pink;
+}
+
+.name {
+    color: red;
+    font-weight: lighter;
+    font-family:Arial;
+    line-height: 2px;;
+}
+
+button{
+    background-color: red;
+    
+}
+/* h1{
+    text-decoration: underline;
+}
+h2{
+    text-decoration: overline;
+} */
+ #decoration{
+    text-decoration: red dotted underline;
+    text-align: center;
+    text-transform: capitalize;
+ }
+ *{
+    font-family: 'Times New Roman';
+ }
+ #outer{
+    font-size: 25px;
+ }
+ #inner{
+    font-size: 10px;
+ }
+ .space{
+    height: 100px;
+    width: 500px;
+    background-color: pink;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 25px;
+ }
+
+ .circle{
+    border-radius: 50%;
+    border: 4px double brown;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    text-align: center;
+ }
+ #navbar{
+    background-color: rgb(112, 152, 55);
+    height: 70px;
+    width: auto;
+ }
+ button{
+    background-color: coral;
+ }
+ #logo{
+    color: coral;
+    font-size: 25px;
+ }
+
+ a{
+    margin-right: 200px;
+    text-decoration: none;
+ }
+ .position{
+   height: 100px;
+   width: 100px;
+   background-image: url("nature.jpg");
+   background-size: cover;
+   font-style:oblique;
+   color: white;
+   border-radius: 10px;
+   position: absolute;
+ }
+
+ 

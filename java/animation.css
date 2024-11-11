@@ -1,0 +1,60 @@
+/*div{
+    height: 200px;
+    width: 200px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+    background-color: cadetblue;
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: azure;
+    text-align: center;
+}
+/*@keyframes animate{
+    from {
+        background-color: cadetblue;
+    }
+    to {
+        background-color: blueviolet;
+        color:white;
+        font-style: oblique;
+        align-content: center;
+    }
+}*/
+
+/*@keyframes animate {
+    0% {
+        left: 0px;
+        background-color: blueviolet;
+    }
+    50% {
+        background-color: darkblue;
+    }
+    100% {
+        left: 300px;
+        background-color: darkmagenta;
+    }
+}*/
+
+.loader{
+    height: 200px;
+    width: 200px;
+    top: 100px;
+    left: 100px;
+    border: 20px solid black;
+    border-radius: 50%;
+    border-right: 20px solid rgb(95, 243, 144);
+    animation: animate2 2s ease-in 0s infinite normal;
+}
+
+@keyframes animate2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
